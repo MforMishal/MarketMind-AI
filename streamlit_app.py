@@ -27,11 +27,9 @@ st.session_state.setdefault("auth_error", "")
 with st.sidebar:
     st.markdown("## :material/query_stats: MarketMind")
     st.caption("Evidence-first business research")
-    st.space("small")
     st.markdown("### Workspace")
     st.badge("Local corpus", icon=":material/database:", color="blue")
     st.badge("Approval required", icon=":material/verified_user:", color="orange")
-    st.space("small")
     st.markdown("### Run controls")
     st.caption("The current demo uses the deterministic corpus. It does not invent search results.")
     if st.session_state.authenticated:
