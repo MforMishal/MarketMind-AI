@@ -1,5 +1,5 @@
 # MarketMind AI
-
+Deployed here: https://market-mind-aii.streamlit.app/
 Bounded, evidence-first business research agent for AAI-412 / PRAC-05.
 
 ## Run locally
