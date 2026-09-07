@@ -45,7 +45,7 @@ with st.sidebar:
         st.session_state.active_request = ""
         st.session_state.last_decision = None
         st.rerun()
-    st.space("small")
+    st.markdown("<div style='margin: 10px 0;'></div>", unsafe_allow_html=True)
     st.caption("MarketMind AI · AAI-412 / PRAC-05")
 
 
